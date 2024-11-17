@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #adcadf;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 60%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: #0288d1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background: #0277bd;
+}
+
+.result-container {
+    text-align: center;
+}
+
+.result-container img {
+    max-width: 150px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.result-container h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.result-container p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background: #ff5252;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background: #e53935;
+}

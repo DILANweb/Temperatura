@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="search-screen" class="screen">
+        <h1>Weather Finder</h1>
+        <input type="text" id="country-input" placeholder="Enter country name">
+        <button id="search-button">Search</button>
+    </div>
+
+    <div id="result-screen" class="screen hidden">
+        <button id="back-button" class="back-button">Back</button>
+        <div class="result-container">
+            <img id="country-flag" alt="Country Flag">
+            <h2 id="country-name"></h2>
+            <p><strong>Capital:</strong> <span id="country-capital"></span></p>
+            <p><strong>Temperature:</strong> <span id="country-temperature"></span>°C</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
